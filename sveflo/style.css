@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main #hero {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  margin: 40px 20px 40px 20px;
+  height: 80vh;
+  align-items: center;
+}
+
+main #hero #hero-img {
+  width: 50%;
+}
+
+main #hero #hero-txt {
+  padding: 0px 120px 0px 120px;
+  width: 50%;
+}
+
+main #hero #hero-txt h3 {
+  margin-bottom: 15px;
+}
+
+main #hero #hero-txt h1 {
+  margin-bottom: 15px;
+}
+
+main #hero #hero-txt p {
+  margin-bottom: 25px;
+}
